@@ -8,5 +8,5 @@ import java.util.Optional;
 public interface MatchRepo extends JpaRepository<Match,Integer> {
 
     //fetch match with team heading
-    Optional<Match> findByteamHeading(String teamHeading);
+    Optional<Match> findByTeamHeading(String teamHeading);
 }

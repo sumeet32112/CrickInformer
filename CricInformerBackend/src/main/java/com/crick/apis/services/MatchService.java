@@ -14,5 +14,5 @@ public interface MatchService {
     List<Match> getLiveMatches();
 
     //get cwc point table
-    List<Map<String,String>> getPointTable();
+    List<List<String>> getPointTable();
 }
