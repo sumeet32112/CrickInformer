@@ -5,8 +5,12 @@ import { LiveComponent } from './pages/live/live.component';
 import { PointTableComponent } from './pages/point-table/point-table.component';
 
 export const routes: Routes = [
-    {path:"home",component:HomeComponent},
-    {path:"history",component:HistoryComponent},
-    {path:"live",component:LiveComponent},
-    {path:"point-table",component:PointTableComponent}
+    {
+        path:"home",
+        component:HomeComponent,
+        title:'Home | CricInformer'
+    },
+    {path:"history",component:HistoryComponent,title:'History | CricInformer'},
+    {path:"live",component:LiveComponent,title:'Live Matches | CricInformer'},
+    {path:"point-table",component:PointTableComponent,title:'Point Table | CricInformer'}
 ];
