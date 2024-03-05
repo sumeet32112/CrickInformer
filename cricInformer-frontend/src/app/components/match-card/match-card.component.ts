@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-match-card',
@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './match-card.component.css'
 })
 export class MatchCardComponent {
-
+  @Input() match:any;
 }
